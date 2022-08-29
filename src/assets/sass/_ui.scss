@@ -1,0 +1,33 @@
+button, .button {
+  font-family: 'Gilroy-Regular';
+  border: none;
+  cursor: pointer;
+  transition: $transition;
+  text-transform: uppercase;
+  font-size: 1rem;
+  background-color: $green;
+  color: $grey-lighten-5;
+  padding: 0.625rem 1.25rem;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $green-lighten-2;
+  }
+
+  &__outlined {
+    background-color: transparent;
+
+    &.dark{
+      color: $grey-darken-4;
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $indigo-lighten-2;
+    }
+  }
+
+  &.block {
+    width: 100%;
+  }
+}

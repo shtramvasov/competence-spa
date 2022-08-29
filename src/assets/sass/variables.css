@@ -369,7 +369,7 @@ a {
   color: #757575;
 }
 a:hover {
-  color: #3F51B5;
+  color: #7986CB;
 }
 
 p, a {
@@ -377,4 +377,33 @@ p, a {
 }
 p.description, a.description {
   font-size: 1rem;
+}
+
+button, .button {
+  font-family: "Gilroy-Regular";
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 250ms;
+  text-transform: uppercase;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: #FAFAFA;
+  padding: 0.625rem 1.25rem;
+  border-radius: 4px;
+}
+button:hover, .button:hover {
+  background-color: #81C784;
+}
+button__outlined, .button__outlined {
+  background-color: transparent;
+}
+button__outlined.dark, .button__outlined.dark {
+  color: #212121;
+}
+button__outlined:hover, .button__outlined:hover {
+  background-color: transparent;
+  color: #7986CB;
+}
+button.block, .button.block {
+  width: 100%;
 }/*# sourceMappingURL=variables.css.map */
