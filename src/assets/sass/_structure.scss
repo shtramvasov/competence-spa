@@ -1,0 +1,87 @@
+@import 'breakpoints';
+
+// Structure
+.flex {
+  display: flex;
+}
+
+.cols {
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+}
+
+.jcc {
+  justify-content: center;
+  align-items: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.pb-24 {
+  padding-bottom: 1.5rem;
+}
+.mb-24 {
+  margin-bottom: 1.5rem;
+}
+.pb-48 {
+  padding-bottom: 3rem;
+}
+.mb-48 {
+  margin-bottom: 3rem;
+}
+.pb-64 {
+  padding-bottom: 4rem;
+}
+.mb-64 {
+  margin-bottom: 4rem;
+}
+.pb-80 {
+  padding-bottom: 5rem;
+}
+.mb-80 {
+  margin-bottom: 5rem;
+}
+.pb-96 {
+  padding-bottom: 6rem;
+}
+.mb-96 {
+  margin-bottom: 6rem;
+}
+
+.pb-120 {
+  padding-bottom: 7.5rem;
+}
+.mb-120 {
+  margin-bottom: 7.5rem;
+}
+.mb-200 {
+  margin-bottom: 12.5rem;
+} 
+.mb-300 {
+  margin-bottom: 18.75rem;
+} 
+.mb-340 {
+  margin-bottom: 21.25rem;
+} 
+
+img {
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+}
+
+.app-wrapper {
+  padding: 1.5rem;
+}
+
+@media (max-width: $screen-small) {
+  .app-wrapper {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
