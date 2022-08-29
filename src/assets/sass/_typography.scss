@@ -1,0 +1,40 @@
+// Typography 
+h1 {
+  font-size: 3.75rem;
+  padding-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.125rem;
+  padding-bottom: 1rem;
+}
+
+h1, h2 {
+  font-family: 'Gilroy-Bold';
+}
+
+p {
+  &.bold {
+    font-family: 'Gilroy-Bold';
+  }
+  &.light {
+    font-family: 'Gilroy-Light';
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: $transition;
+  color: $grey-darken-1;
+
+  &:hover {
+    color: $indigo;
+  }
+}
+
+p, a {
+  font-size: 1.5rem;
+  &.description {
+      font-size: 1rem;
+  }
+}

@@ -101,6 +101,10 @@
   font-family: "Gilroy-Bold";
   src: local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Gilroy-Light";
+  src: local("Gilroy-Light"), url("../fonts/Gilroy-Light.ttf") format("truetype");
+}
 *,
 *::after,
 *::before {
@@ -120,7 +124,7 @@ html {
   font-weight: 400;
 }
 
-#app {
+body {
   background-color: #F5F5F5;
 }
 
@@ -237,4 +241,41 @@ html {
 }
 .amber__lighten-3--text {
   color: #FFE082;
+}
+
+h1 {
+  font-size: 3.75rem;
+  padding-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.125rem;
+  padding-bottom: 1rem;
+}
+
+h1, h2 {
+  font-family: "Gilroy-Bold";
+}
+
+p.bold {
+  font-family: "Gilroy-Bold";
+}
+p.light {
+  font-family: "Gilroy-Light";
+}
+
+a {
+  text-decoration: none;
+  transition: ease-in-out 250ms;
+  color: #757575;
+}
+a:hover {
+  color: #3F51B5;
+}
+
+p, a {
+  font-size: 1.5rem;
+}
+p.description, a.description {
+  font-size: 1rem;
 }/*# sourceMappingURL=variables.css.map */
