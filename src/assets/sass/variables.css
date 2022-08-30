@@ -113,7 +113,7 @@
   padding: 0;
 }
 
-ul {
+ul, nav {
   list-style: none;
 }
 
@@ -255,6 +255,10 @@ body {
   text-align: center;
 }
 
+.vcenter {
+  align-items: center;
+}
+
 .jcc {
   justify-content: center;
   align-items: center;
@@ -324,6 +328,30 @@ body {
   margin-bottom: 21.25rem;
 }
 
+.gap-0-5 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-1-5 {
+  gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
 img {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -373,7 +401,7 @@ a:hover {
 }
 
 p, a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 p.description, a.description {
   font-size: 1rem;
@@ -387,23 +415,38 @@ button, .button {
   text-transform: uppercase;
   font-size: 1rem;
   background-color: #4CAF50;
-  color: #FAFAFA;
-  padding: 0.625rem 1.25rem;
+  padding: 0.875rem 1.25rem;
   border-radius: 4px;
 }
 button:hover, .button:hover {
   background-color: #81C784;
+  color: #7986CB;
 }
-button__outlined, .button__outlined {
+button__hollow, .button__hollow {
   background-color: transparent;
 }
-button__outlined.dark, .button__outlined.dark {
+button__hollow.dark, .button__hollow.dark {
   color: #212121;
 }
-button__outlined:hover, .button__outlined:hover {
+button__hollow:hover, .button__hollow:hover {
   background-color: transparent;
   color: #7986CB;
 }
+button__outlined, .button__outlined {
+  background-color: transparent;
+  border: 1px solid #4CAF50;
+}
+button__outlined.dark, .button__outlined.dark {
+  border: 1px solid #757575;
+}
+button__outlined:hover, .button__outlined:hover {
+  background-color: transparent;
+  color: #FAFAFA;
+  border: 1px solid #81C784;
+}
 button.block, .button.block {
   width: 100%;
+}
+button.small, .button.small {
+  padding: 0.625rem 1.25rem;
 }/*# sourceMappingURL=variables.css.map */

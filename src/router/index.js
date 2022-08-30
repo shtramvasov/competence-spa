@@ -5,12 +5,60 @@ import HomeView from '../views/HomeView.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-]
+	{
+		path: '/',
+		name: 'home',
+		component: HomeView,
+	},
+	{
+		path: '/signin',
+		name: 'sign-in',
+	},
+	{
+		path: '/signup',
+		name: 'sign-up',
+	},
+	{
+		path: '/how-it-works',
+		name: 'how-it-works',
+	},
+	{
+		path: '/features',
+		name: 'features',
+	},
+	{
+		path: '/retail',
+		name: 'retail',
+	},
+	{
+		path: '/banking',
+		name: 'banking',
+	},
+	{
+		path: '/corporate',
+		name: 'corporate',
+	},
+	{
+		path: '/hospitality',
+		name: 'hospitality',
+	},
+	{
+		path: '/about',
+		name: 'about',
+	},
+	{
+		path: '/partnership',
+		name: 'partnership',
+	},
+	{
+		path: '/contacts',
+		name: 'contacts',
+	},
+	{
+		path: '/pricing',
+		name: 'pricing',
+	},
+];
 
 const router = new VueRouter({
   mode: 'history',
