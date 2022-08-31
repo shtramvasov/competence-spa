@@ -352,7 +352,7 @@ body {
   gap: 4rem;
 }
 
-img {
+img, svg {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -364,7 +364,7 @@ img {
   padding: 1.5rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 980px) {
   .app-wrapper {
     flex-wrap: wrap;
     flex-direction: row;
@@ -435,14 +435,19 @@ button__hollow:hover, .button__hollow:hover {
 button__outlined, .button__outlined {
   background-color: transparent;
   border: 1px solid #4CAF50;
+  color: #757575;
+}
+button__outlined:hover, .button__outlined:hover {
+  background-color: #4CAF50;
+  color: #F5F5F5;
 }
 button__outlined.dark, .button__outlined.dark {
   border: 1px solid #757575;
 }
-button__outlined:hover, .button__outlined:hover {
-  background-color: transparent;
-  color: #FAFAFA;
-  border: 1px solid #81C784;
+button__outlined.dark:hover, .button__outlined.dark:hover {
+  background-color: #FFE082;
+  color: #212121;
+  border: 1px solid #FFE082;
 }
 button.block, .button.block {
   width: 100%;

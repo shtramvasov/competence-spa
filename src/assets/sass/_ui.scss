@@ -30,15 +30,21 @@ button, .button {
   &__outlined {
     background-color: transparent;
     border: 1px solid $green;
+    color: $grey-darken-1;
+
+    &:hover {
+      background-color:$green;
+      color: $grey-lighten-4;
+    }
 
     &.dark{
       border: 1px solid $grey-darken-1;
-    }
 
-    &:hover {
-      background-color: transparent;
-      color: $grey-lighten-5;
-      border: 1px solid $green-lighten-2;
+      &:hover {
+        background-color: $amber-lighten-3;
+        color: $grey-darken-4;
+        border: 1px solid $amber-lighten-3;
+      }
     }
   }
 
