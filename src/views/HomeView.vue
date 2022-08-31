@@ -1,5 +1,5 @@
 <template>
-  <section class="gigatest grey__darken-4 pb-96 rounded-lg">
+  <section>
     <Header />
   </section>
 </template>
@@ -13,9 +13,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.gigatest {
-  height: 2000px;
-}  
-</style>

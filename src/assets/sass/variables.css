@@ -122,6 +122,7 @@ html {
   font-family: "Gilroy-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 body {
