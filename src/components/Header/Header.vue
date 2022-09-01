@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ wrapper: scrolledY }">
+  <div class="wrap" :class="{ scrolled: scrolledY }">
     <div class="container flex vcenter jcsb" :class="{ 'white-logo': this.background ==='white' }">
       <div class="navigation flex vcenter gap-1">
         <router-link :to="{name: 'home'}">
@@ -72,12 +72,16 @@ export default {
 @import '@/assets/sass/colors';
 @import '@/assets/sass/breakpoints';
 
-.wrapper {
+.wrap {
   position: fixed;
   width: 100%;
+  padding-top: 0.5rem;
+  padding-right: 2.75rem;
+}
+
+.scrolled {
   top: 0;
   padding-top: 0.1rem;
-  padding-right: 2.75rem;
   background-color: $grey-lighten-4;
   transition: $transition;
 
