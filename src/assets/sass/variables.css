@@ -260,6 +260,10 @@ body {
   align-items: center;
 }
 
+.self-center {
+  margin: 0 auto;
+}
+
 .jcc {
   justify-content: center;
   align-items: center;
@@ -411,6 +415,9 @@ a {
 a:hover {
   color: #7986CB;
 }
+a:hover .button:hover {
+  color: #F5F5F5;
+}
 
 p, a {
   font-size: 1.3rem;
@@ -443,7 +450,7 @@ button__hollow, .button__hollow {
   background-color: transparent;
 }
 button__hollow.dark, .button__hollow.dark {
-  color: #212121;
+  color: #F5F5F5;
 }
 button__hollow:hover, .button__hollow:hover {
   background-color: transparent;

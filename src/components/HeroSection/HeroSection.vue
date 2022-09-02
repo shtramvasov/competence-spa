@@ -1,15 +1,20 @@
 <template>
   <section class="container inner-wrapper" :class="{ 'grey__darken-4 rounded-lg' : this.dark == true }">
-    <div class="hero-content flex jcsb gap-4">
-      <div class="item item__text" :class="{'center' :this.centered == true }">
-        <h1 :class="{'grey__lighten-5--text' : this.dark == true}">{{ title }}</h1>
-        <p class="grey__darken-1--text">{{ desc }}</p>
+    <div class="pb-120">
+      <div class="hero-content flex jcsb gap-4">
+        <div class="item item__text" :class="{'center' :this.centered == true }">
+          <h1 :class="{'grey__lighten-5--text' : this.dark == true}">{{ title }}</h1>
+          <p class="grey__darken-1--text pb-48">{{ desc }}</p>
+          <router-link :to="{name: 'pricing'}">
+            <button v-if="cta" :class="{ 'grey__lighten-4--text' : this.dark == true}">{{ cta }}</button>
+          </router-link>
+        </div>
+        <div v-if="img" class="item item__img">
+          <img :src="require(`@/assets/img/${this.img}`)">
+        </div>
       </div>
-      <div v-if="img" class="item item__img">
-        <img :src="require(`@/assets/img/${this.img}`)">
-      </div>
+      <slot />
     </div>
-    <slot />
   </section>
 </template>
 
@@ -17,10 +22,11 @@
 export default {
   props: {
     dark: Boolean | false,
+    centered: Boolean | false,
     title: String,
     desc: String,
-    centered: Boolean | false,
-    img: String
+    img: String,
+    cta: String
   }
 }
 </script>
@@ -69,6 +75,10 @@ export default {
    @media (max-width: $screen-phone) {
     .container {
       padding-top: 10rem;
+    }
+
+    .hero-content {
+      flex-direction: column-reverse;
     }
    }
 </style>

@@ -10,12 +10,14 @@
   <section>
     <Header />
     <HeroSection 
+      :dark="true"
       :title="'Работа с документами никогда не была на столько простой'"
       :desc="'Управляйте документами и адаптируйтесь к нуждам вашей команды. Просто. Из любого места.'"
-      :dark="true"
-
-      :img="'hero-how-it-works.png'"
+      :centered="true"
+      
     >
+    <CTAButtons class="jcc pb-120" :dark="true"/>
+    <img src="@/assets/img/hero-inventory.gif" class="rounded flex self-center">
     </HeroSection>
   </section>
 </template>
@@ -23,11 +25,13 @@
 <script>
 import Header from '@/components/Header/Header'
 import HeroSection from '@/components/HeroSection/HeroSection';
+import CTAButtons from '@/components/CTAButtons/CTAButtons.vue';
 export default {
   name: 'HomeView',
   components: {
     Header,
-    HeroSection
+    HeroSection,
+    CTAButtons
 }
 }
 </script>
