@@ -357,6 +357,14 @@ body {
   gap: 4rem;
 }
 
+.gap-5 {
+  gap: 5rem;
+}
+
+.gap-6 {
+  gap: 6rem;
+}
+
 img, svg {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
