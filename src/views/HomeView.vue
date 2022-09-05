@@ -51,6 +51,18 @@
     </section>
     <SectionScenarios class="mb-300"/>
     <SectionFastStart class="mb-200"/>
+    <Card 
+      class="mb-340"
+      :title="'Бесплатные приложения'"
+      :images="[{ image: 'free-app.png' }]"
+    >
+    <p class="grey__darken-1--text pb-48">
+      Быстро создавайте вовлекающий динамический контент на основе социальных сетей, развлекательных каналов, 
+      новостных лент или информационных сервисов непосредственно в личном кабинете Competence. Размещайте его в 
+      конкретных областях экрана или внутри ваших документов в сочетании с другими единицами контента.
+    </p>
+    <CTAButtons />
+    </Card>
   </section>
 </template>
 
@@ -69,7 +81,8 @@ export default {
     CTAButtons,
     Card,
     SectionScenarios,
-    SectionFastStart
+    SectionFastStart,
+    CTAButtons
 }
 }
 </script>
