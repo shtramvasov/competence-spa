@@ -63,6 +63,7 @@
     </p>
     <CTAButtons />
     </Card>
+    <Footer />
   </section>
 </template>
 
@@ -73,6 +74,7 @@ import CTAButtons from '@/components/CTAButtons/CTAButtons';
 import Card from '@/components/Card/Card';
 import SectionScenarios from '@/components/SectionScenarios/SectionScenarios';
 import SectionFastStart from '@/components/SectionFastStart/SectionFastStart';
+import Footer from '@/components/Footer/Footer';
 export default {
   name: 'HomeView',
   components: {
@@ -82,7 +84,8 @@ export default {
     Card,
     SectionScenarios,
     SectionFastStart,
-    CTAButtons
+    CTAButtons,
+    Footer
 }
 }
 </script>
