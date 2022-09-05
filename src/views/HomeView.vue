@@ -49,6 +49,7 @@
       </p>
       </Card>
     </section>
+    <SectionScenarios />
   </section>
 </template>
 
@@ -57,13 +58,15 @@ import Header from '@/components/Header/Header'
 import HeroSection from '@/components/HeroSection/HeroSection';
 import CTAButtons from '@/components/CTAButtons/CTAButtons';
 import Card from '@/components/Card/Card';
+import SectionScenarios from '@/components/SectionScenarios/SectionScenarios';
 export default {
   name: 'HomeView',
   components: {
     Header,
     HeroSection,
     CTAButtons,
-    Card
+    Card,
+    SectionScenarios
 }
 }
 </script>

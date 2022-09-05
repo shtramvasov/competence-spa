@@ -16,7 +16,6 @@ export default {
     dark: Boolean | false,
     title: String,
     images: Array,
-    cta: String
   }
 }
 </script>
