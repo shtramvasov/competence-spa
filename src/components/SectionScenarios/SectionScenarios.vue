@@ -7,7 +7,7 @@
         строчки программного кода прямо в вашем личном кабинете.
       </p>
     </div>
-    <div class="features flex gap-4 jcsb">
+    <div class="features flex gap-4 jcsb pb-64">
       <FeatureItem 
         :dark="true"
         :title="'Интерактивный каталог'"
@@ -30,6 +30,8 @@
                 онлайн обучений, организации промо акций и пр.`"
       />
     </div>
+    <img class="image inner-wrapper mb-24" src="@/assets/img/scenarios.png" alt="Интерактивные сценарии">
+    <p class="grey__darken-1--text text-centered">Есть другие идеи? Что ж, вы ограничены только своим воображением. Инструмент у вас уже есть.</p>
   </section>
 </template>
 
@@ -57,14 +59,19 @@ export default {
     .features {
       flex-wrap: wrap;
     }
+
+    .image {
+      padding: 0;
+    }
   }
 
   @media (max-width: $screen-small) {
     .container {
-
-      .content {
+      
+      p {
         text-align: left;
-  
+      }
+      .content {
         p {
           max-width: 100%;
         }
