@@ -30,7 +30,7 @@
                 онлайн обучений, организации промо акций и пр.`"
       />
     </div>
-    <img class="image inner-wrapper mb-24" src="@/assets/img/scenarios.png" alt="Интерактивные сценарии">
+    <img class="image inner-wrapper" src="@/assets/img/scenarios.png" alt="Интерактивные сценарии">
     <p class="grey__darken-1--text text-centered">Есть другие идеи? Что ж, вы ограничены только своим воображением. Инструмент у вас уже есть.</p>
   </section>
 </template>
@@ -53,6 +53,10 @@ export default {
         max-width: 75%;
       }
     }
+  }
+
+  .image {
+    margin: 0 auto 2rem;
   }
 
   @media (max-width: $screen-medium) {

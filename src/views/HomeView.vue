@@ -49,7 +49,8 @@
       </p>
       </Card>
     </section>
-    <SectionScenarios />
+    <SectionScenarios class="mb-300"/>
+    <SectionFastStart class="mb-200"/>
   </section>
 </template>
 
@@ -59,6 +60,7 @@ import HeroSection from '@/components/HeroSection/HeroSection';
 import CTAButtons from '@/components/CTAButtons/CTAButtons';
 import Card from '@/components/Card/Card';
 import SectionScenarios from '@/components/SectionScenarios/SectionScenarios';
+import SectionFastStart from '@/components/SectionFastStart/SectionFastStart';
 export default {
   name: 'HomeView',
   components: {
@@ -66,7 +68,8 @@ export default {
     HeroSection,
     CTAButtons,
     Card,
-    SectionScenarios
+    SectionScenarios,
+    SectionFastStart
 }
 }
 </script>
