@@ -77,6 +77,7 @@ export default {
   width: 100%;
   padding-top: 0.5rem;
   padding-right: 2.75rem;
+  z-index: 10;
 }
 
 .scrolled {

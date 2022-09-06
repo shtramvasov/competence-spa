@@ -37,5 +37,4 @@ export default {
   .container::v-deep .container {
     align-items: center;
   }
-
 </style>

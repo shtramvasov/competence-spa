@@ -32,15 +32,17 @@
         />
       </div>
     </section>
-    <SectionCTA />
+    <SectionCTA class="mb-340"/>
+    <Footer />
   </section>
 </template>
 <script>
 import Header from '@/components/Header/Header';
 import HeroSection from '@/components/HeroSection/HeroSection';
 import Card from '@/components/Card/Card';
-import FeatureItem from '@/components/FeatureItem/FeatureItem.vue';
-import SectionCTA from '@/components/SectionCTA/SectionCTA.vue';
+import FeatureItem from '@/components/FeatureItem/FeatureItem';
+import SectionCTA from '@/components/SectionCTA/SectionCTA';
+import Footer from '@/components/Footer/Footer';
 export default {
   name: 'HowItWorksView',
   components: {
@@ -48,7 +50,8 @@ export default {
     HeroSection,
     Card,
     FeatureItem,
-    SectionCTA
+    SectionCTA,
+    Footer
 }
 }
 </script>
