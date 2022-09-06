@@ -1,5 +1,5 @@
 <template >
-  <div class="flex gap-2">
+  <div class="buttons flex gap-2">
     <router-link :to="{ name: 'sign-in' }">
       <button class='button grey__lighten-4--text'>Начать бесплатно</button>
     </router-link>
@@ -17,5 +17,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  
+  .buttons {
+    flex-wrap: wrap;
+  }
 </style>
