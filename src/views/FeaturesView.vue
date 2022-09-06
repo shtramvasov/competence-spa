@@ -21,6 +21,8 @@
     <BlockFeaturesList />
     </Card>
     <SectionFeaturesTabs class="mb-200"/>
+    <SectionCTA class="mb-340"/>
+    <Footer />
   </section>
 </template>
 <script>
@@ -30,11 +32,13 @@ import Card from '@/components/Card/Card';
 import FeatureItem from '@/components/FeatureItem/FeatureItem';
 import SectionFeaturesTabs from '../components/SectionFeaturesTabs/SectionFeaturesTabs';
 import BlockFeaturesList from '@/components/BlockFeaturesList/BlockFeaturesList';
+import SectionCTA from '@/components/SectionCTA/SectionCTA';
+import Footer from '@/components/Footer/Footer';
 export default {
     name: "FeaturesView",
-    components: { Header, HeroSection, Card, FeatureItem, FeatureItem, SectionFeaturesTabs, BlockFeaturesList }
+    components: { Header, HeroSection, Card, FeatureItem, FeatureItem, SectionFeaturesTabs, BlockFeaturesList, SectionCTA, Footer }
 }
 </script>
 <style lang="scss" scoped>
-  
+
 </style>
