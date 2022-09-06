@@ -18,33 +18,9 @@
       Гибко настраиваемый инструмент, с помощью которого вы можете поделить экран на несколько 
       областей и создать уникальный макет для вашей команды.
     </p>
-    <div class="features flex cols gap-3 jcsb">
-      <FeatureItem 
-        :title="'Настраиваемые области'"
-        :desc="`Делите экран на несколько областей с легко настраиваемыми размерами и 
-                используйте различные единицы контента в каждой из них одновременно.`"
-        :icon="'feature-layers'"
-      />
-      <FeatureItem 
-        :title="'Встроенный графический редактор'"
-        :desc="`Выбирайте цвет, размер и степень прозрачности для слоев, полей и шрифтов. 
-                Задавайте скорость и направление движения для бегущей строки.`"
-        :icon="'feature-pencil'"
-      />
-      <FeatureItem 
-        :title="'Сцены'"
-        :desc="`Создавайте несколько сцен в рамках одного макета, устанавливайте условия перехода 
-                между ними, делайте свои сценарии многостраничными.`"
-        :icon="'feature-scene'"
-      />
-      <FeatureItem 
-        :title="'Адаптивность'"
-        :desc="`Создавайте адаптивные макеты, которые выглядят одинаково отлично на экранах с 
-                разными разрешениями, соотношением сторон и ориентацией.`"
-        :icon="'feature-adapt'"
-      />
-    </div>
+    <BlockFeaturesList />
     </Card>
+    <SectionFeaturesTabs class="mb-200"/>
   </section>
 </template>
 <script>
@@ -52,13 +28,13 @@ import Header from '@/components/Header/Header';
 import HeroSection from '@/components/HeroSection/HeroSection';
 import Card from '@/components/Card/Card';
 import FeatureItem from '@/components/FeatureItem/FeatureItem';
+import SectionFeaturesTabs from '../components/SectionFeaturesTabs/SectionFeaturesTabs';
+import BlockFeaturesList from '@/components/BlockFeaturesList/BlockFeaturesList';
 export default {
     name: "FeaturesView",
-    components: { Header, HeroSection, Card, FeatureItem, FeatureItem }
+    components: { Header, HeroSection, Card, FeatureItem, FeatureItem, SectionFeaturesTabs, BlockFeaturesList }
 }
 </script>
 <style lang="scss" scoped>
-  .features {
-    padding-top: 4rem;
-  }
+  
 </style>
