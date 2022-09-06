@@ -1,5 +1,5 @@
 <template>
-  <div class="stats grey__lighten-5 elevated-1 rounded-lg flex  gap-1-5">
+  <div class="stats grey__lighten-5 elevated-1 rounded-lg flex gap-1-5">
     <div class="item">
       <p class="bold">2016</p>
       <p class="description grey__darken-1--text">Год основания</p>
