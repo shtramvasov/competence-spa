@@ -47,7 +47,6 @@
       <ul class="dropdown-content">
         <router-link class="description grey__darken-4--text" :to="{name: 'about'}">О нас</router-link>
         <router-link class="description grey__darken-4--text" :to="{name: 'partnership'}">Партнерская программа</router-link>
-        <router-link class="description grey__darken-4--text" :to="{name: 'contacts'}">Контакты</router-link>
       </ul>
     </div>
     <router-link class="dropdown-item link" :to="{name: 'pricing'}">Цены</router-link>     

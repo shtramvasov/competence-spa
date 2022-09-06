@@ -5,6 +5,7 @@ import HowItWorksView from '../views/HowItWorksView.vue';
 import FeaturesView from '../views/FeaturesView.vue';
 import AboutView from '../views/AboutView.vue';
 import PartnershipView from '../views/PartnershipView.vue';
+import RetailView from '../views/RetailView.vue';
 
 Vue.use(VueRouter)
 
@@ -35,6 +36,7 @@ const routes = [
 	{
 		path: '/retail',
 		name: 'retail',
+		component: RetailView,
 	},
 	{
 		path: '/banking',
@@ -59,12 +61,12 @@ const routes = [
 		component: PartnershipView,
 	},
 	{
-		path: '/contacts',
-		name: 'contacts',
-	},
-	{
 		path: '/pricing',
 		name: 'pricing',
+	},
+	{
+		path: '/*',
+		redirect: '/',
 	},
 ];
 

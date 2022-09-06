@@ -22,7 +22,6 @@
         <ul class="flex cols gap-1">
           <router-link class="description blue-grey__darken-4--text" :to="{name: 'about'}">О нас</router-link>
           <router-link class="description blue-grey__darken-4--text" :to="{name: 'partnership'}">Партнерская программа</router-link>
-          <router-link class="description blue-grey__darken-4--text" :to="{name: 'contacts'}">Контакты</router-link>
         </ul>
       </div>
       <div class="flex cols gap-1-5">

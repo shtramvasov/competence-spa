@@ -18,7 +18,6 @@
           <p class="bold grey__lighten-5--text">Компания</p>
           <router-link class="blue-grey__darken-1--text" :to="{name: 'about'}">О нас</router-link>
           <router-link class="blue-grey__darken-1--text" :to="{name: 'partnership'}">Партнерская программа</router-link>
-          <router-link class="blue-grey__darken-1--text" :to="{name: 'contacts'}">Контакты</router-link>
         </div>
       </div>
       <div class="contacts flex cols gap-1">
