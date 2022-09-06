@@ -4,7 +4,7 @@
       <h1 :class="{'grey__lighten-5--text' : this.dark == true}">{{ title }}</h1>
       <slot />
     </div>
-    <div class="item item__img flex cols jcc" :class="{ 'gap-3' : images.length > 1}">
+    <div class="item item__img flex cols jcc vcenter" :class="{ 'gap-3' : images.length > 1}">
       <img v-for="image in images" :key="image" :src="require(`@/assets/img/${image.image}`)">
     </div>
   </div>
