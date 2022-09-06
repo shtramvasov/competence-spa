@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import HowItWorksView from '../views/HowItWorksView.vue';
+import FeaturesView from '../views/FeaturesView.vue';
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,7 @@ const routes = [
 	{
 		path: '/features',
 		name: 'features',
+    component: FeaturesView,
 	},
 	{
 		path: '/retail',
@@ -63,9 +65,12 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
-})
+	mode: 'history',
+	base: process.env.BASE_URL,
+	routes,
+	scrollBehavior(to, from, savedPosition) {
+		return { x: 0, y: 0 };
+	},
+});
 
 export default router
