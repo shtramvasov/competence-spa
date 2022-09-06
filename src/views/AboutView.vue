@@ -11,7 +11,7 @@
               динамические потоки или интерактивные сценарии в неограниченном кол-ве локаций в любое время и из любого места.`"
       :img="'hero-about'"
     >
-    <BlockStats class="mb-96"/>
+    <BlockStats class="mb-96 text-centered"/>
     </HeroSection>
     <Card
       class="mb-200"
@@ -56,7 +56,7 @@ export default {
     border-left: 4px solid $green-lighten-2;
   }
 
-  .about::v-deep .container {
+  .about::v-deep .item__text {
     p {
       padding-bottom: 1.5rem;
     }

@@ -18,7 +18,7 @@
       Гибко настраиваемый инструмент, с помощью которого вы можете поделить экран на несколько 
       областей и создать уникальный макет для вашей команды.
     </p>
-    <BlockFeaturesList />
+    <BlockFeaturesList :features="features"/>
     </Card>
     <SectionFeaturesTabs class="mb-200"/>
     <SectionCTA class="mb-340"/>
@@ -36,6 +36,38 @@ import SectionCTA from '@/components/SectionCTA/SectionCTA';
 import Footer from '@/components/Footer/Footer';
 export default {
     name: "FeaturesView",
-    components: { Header, HeroSection, Card, FeatureItem, FeatureItem, SectionFeaturesTabs, BlockFeaturesList, SectionCTA, Footer }
+    components: { Header, HeroSection, Card, FeatureItem, FeatureItem, SectionFeaturesTabs, BlockFeaturesList, SectionCTA, Footer },
+    data() {
+      return {
+        features:
+        [
+          {
+            title: 'Настраиваемые области', 
+            desc: `Делите экран на несколько областей с легко настраиваемыми размерами и используйте различные 
+                  единицы контента в каждой из них одновременно.`, 
+            icon: 'feature-layers',
+          },
+          {
+            title: 'Встроенный графический редактор', 
+            desc: `Выбирайте цвет, размер и степень прозрачности для слоев, полей и шрифтов. 
+                  Задавайте скорость и направление движения для бегущей строки.`, 
+            icon: 'feature-pencil',
+          },
+          {
+            title: 'Сцены', 
+            desc: `Создавайте несколько сцен в рамках одного макета, устанавливайте условия перехода 
+                  между ними, делайте свои сценарии многостраничными.`, 
+            icon: 'feature-scene',
+          },
+          {
+            title: 'Адаптивность', 
+            desc: `Создавайте адаптивные макеты, которые выглядят одинаково отлично на экранах с 
+                  разными разрешениями, соотношением сторон и ориентацией.`, 
+            icon: 'feature-adapt',
+          },
+        ]
+      }
+    
+    }
 }
 </script>

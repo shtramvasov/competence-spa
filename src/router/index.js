@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import HowItWorksView from '../views/HowItWorksView.vue';
 import FeaturesView from '../views/FeaturesView.vue';
 import AboutView from '../views/AboutView.vue';
+import PartnershipView from '../views/PartnershipView.vue';
 
 Vue.use(VueRouter)
 
@@ -55,6 +56,7 @@ const routes = [
 	{
 		path: '/partnership',
 		name: 'partnership',
+		component: PartnershipView,
 	},
 	{
 		path: '/contacts',
