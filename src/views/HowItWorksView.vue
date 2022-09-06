@@ -20,22 +20,52 @@
       он начнет загружаться на ваших экранах мгновенно независимо от того, как далеко от вас они расположены.
     </p>
     </Card>
+    <section class="features grey__lighten-5 rounded-lg elevation-1 flex jcc mb-300">
+      <FeatureItem
+        :tab="true"
+        :icon="'tab-server'"
+        :title="`Безопасное движение и хранение вашего контента обеспечивает управляющий облачный сервер на базе AWS`"
+        :desc="`Это важно, знать, за безопасность вашей информации отвечает один из мировых лидеров в сфере облачных 
+                решений. Кроме того, его серверные мощности позволяют масштабировать ваш проект до любых размеров 
+                и в любой момент времени.`"
+      />
+    </section>
   </section>
 </template>
 <script>
 import Header from '@/components/Header/Header';
 import HeroSection from '@/components/HeroSection/HeroSection';
 import Card from '@/components/Card/Card';
+import FeatureItem from '@/components/FeatureItem/FeatureItem.vue';
 export default {
   name: 'HowItWorksView',
   components: {
     Header,
     HeroSection,
-    Card
+    Card,
+    FeatureItem
 }
 }
 </script>
 
 <style lang="scss" scoped>
-  
+  @import '@/assets/sass/breakpoints';
+
+  .features {
+    padding: 3.5rem 8rem;
+
+    div {
+      max-width: 60%;
+    }
+  }
+
+  @media (max-width: $screen-medium) {
+    .features {
+      padding: 3.5rem;
+
+      div {
+        max-width: 100%;
+      }
+    }
+  }
 </style>
