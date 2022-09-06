@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import HowItWorksView from '../views/HowItWorksView.vue';
 import FeaturesView from '../views/FeaturesView.vue';
+import AboutView from '../views/AboutView.vue';
 
 Vue.use(VueRouter)
 
@@ -28,7 +29,7 @@ const routes = [
 	{
 		path: '/features',
 		name: 'features',
-    component: FeaturesView,
+		component: FeaturesView,
 	},
 	{
 		path: '/retail',
@@ -49,6 +50,7 @@ const routes = [
 	{
 		path: '/about',
 		name: 'about',
+		component: AboutView,
 	},
 	{
 		path: '/partnership',

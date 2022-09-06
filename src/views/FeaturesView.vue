@@ -39,6 +39,3 @@ export default {
     components: { Header, HeroSection, Card, FeatureItem, FeatureItem, SectionFeaturesTabs, BlockFeaturesList, SectionCTA, Footer }
 }
 </script>
-<style lang="scss" scoped>
-
-</style>
