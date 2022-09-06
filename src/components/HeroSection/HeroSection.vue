@@ -10,7 +10,7 @@
           </router-link>
         </div>
         <div v-if="img" class="item item__img">
-          <img :src="require(`@/assets/img/${this.img}`)">
+          <img :src="require(`@/assets/img/${this.img}.png`)">
         </div>
       </div>
       <slot />

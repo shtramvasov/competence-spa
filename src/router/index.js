@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import HowItWorksView from '../views/HowItWorksView.vue';
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,7 @@ const routes = [
 	{
 		path: '/how-it-works',
 		name: 'how-it-works',
+		component: HowItWorksView,
 	},
 	{
 		path: '/features',
