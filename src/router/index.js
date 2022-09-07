@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import SignInView from '../views/SignInView.vue'
 import HowItWorksView from '../views/HowItWorksView.vue';
 import FeaturesView from '../views/FeaturesView.vue';
 import AboutView from '../views/AboutView.vue';
@@ -21,6 +22,7 @@ const routes = [
 	{
 		path: '/signin',
 		name: 'sign-in',
+		component: SignInView,
 	},
 	{
 		path: '/signup',

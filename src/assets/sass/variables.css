@@ -93,6 +93,19 @@
   color: #FFE082;
 }
 
+.pink {
+  background-color: #E91E63;
+}
+.pink--text {
+  color: #E91E63;
+}
+.pink__darken-1 {
+  background-color: #D81B60;
+}
+.pink__darken-1--text {
+  color: #D81B60;
+}
+
 @font-face {
   font-family: "Gilroy-Regular";
   src: local("Gilroy-Regular"), url("../fonts/Gilroy-Regular.ttf") format("truetype");
@@ -242,6 +255,19 @@ body {
 }
 .amber__lighten-3--text {
   color: #FFE082;
+}
+
+.pink {
+  background-color: #E91E63;
+}
+.pink--text {
+  color: #E91E63;
+}
+.pink__darken-1 {
+  background-color: #D81B60;
+}
+.pink__darken-1--text {
+  color: #D81B60;
 }
 
 .flex {
@@ -490,4 +516,19 @@ button.block, .button.block {
 }
 button.small, .button.small {
   padding: 0.625rem 1.25rem;
+}
+
+input, .input {
+  font-family: "Gilroy-Regular";
+  border: none;
+  border-bottom: 1px solid #E0E0E0;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #3F51B5;
+  padding-bottom: 0.5rem;
+  transition: ease-in-out 250ms;
+}
+input:focus, .input:focus {
+  outline: none;
+  border-bottom: 1px solid #757575;
 }/*# sourceMappingURL=variables.css.map */

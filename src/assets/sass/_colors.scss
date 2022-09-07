@@ -19,6 +19,10 @@ $indigo-lighten-2: #7986CB;
 $amber: #FFC107;
 $amber-lighten-3: #FFE082;
 
+
+$pink: #E91E63;
+$pink-darken-1: #D81B60;
+
 //Animations
 $transition: ease-in-out 250ms;
 
@@ -119,6 +123,20 @@ $transition: ease-in-out 250ms;
 
     &--text {
       color: $amber-lighten-3;
+    }
+  }
+}
+
+.pink {
+  background-color: $pink;
+  &--text {
+      color: $pink;
+  }
+  &__darken-1 {
+    background-color: $pink-darken-1;
+
+    &--text {
+      color: $pink-darken-1;
     }
   }
 }
