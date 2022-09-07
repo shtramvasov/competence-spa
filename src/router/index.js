@@ -6,6 +6,9 @@ import FeaturesView from '../views/FeaturesView.vue';
 import AboutView from '../views/AboutView.vue';
 import PartnershipView from '../views/PartnershipView.vue';
 import RetailView from '../views/RetailView.vue';
+import BankingView from '../views/BankingView.vue';
+import CorporateView from '../views/CorporateView.vue';
+import HospitalityView from '../views/HospitalityView.vue';
 
 Vue.use(VueRouter)
 
@@ -41,14 +44,17 @@ const routes = [
 	{
 		path: '/banking',
 		name: 'banking',
+		component: BankingView,
 	},
 	{
 		path: '/corporate',
 		name: 'corporate',
+		component: CorporateView,
 	},
 	{
 		path: '/hospitality',
 		name: 'hospitality',
+		component: HospitalityView,
 	},
 	{
 		path: '/about',
