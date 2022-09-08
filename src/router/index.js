@@ -11,6 +11,7 @@ import RetailView from '../views/RetailView.vue';
 import BankingView from '../views/BankingView.vue';
 import CorporateView from '../views/CorporateView.vue';
 import HospitalityView from '../views/HospitalityView.vue';
+import PricingView from '../views/PricingView.vue';
 
 Vue.use(VueRouter)
 
@@ -73,6 +74,7 @@ const routes = [
 	{
 		path: '/pricing',
 		name: 'pricing',
+		component: PricingView,
 	},
 	{
 		path: '/*',
@@ -84,9 +86,9 @@ const router = new VueRouter({
 	mode: 'history',
 	base: process.env.BASE_URL,
 	routes,
-	// scrollBehavior(to, from, savedPosition) {
-	// 	return { x: 0, y: 0 };
-	// },
+	scrollBehavior(to, from, savedPosition) {
+		return { x: 0, y: 0 };
+	},
 });
 
 export default router

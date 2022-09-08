@@ -6,6 +6,7 @@
           <p class="bold grey__lighten-5--text">Продукт</p>
           <router-link class="blue-grey__darken-1--text" :to="{name: 'how-it-works'}">Как это работает</router-link>
           <router-link class="blue-grey__darken-1--text" :to="{name: 'features'}">Функционал</router-link>
+          <router-link class="blue-grey__darken-1--text" :to="{name: 'pricing'}">Цены</router-link>
         </div>
         <div class="item flex cols gap-1">
           <p class="bold grey__lighten-5--text">Решения</p>
