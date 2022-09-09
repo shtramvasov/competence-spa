@@ -12,7 +12,7 @@
     <Card
       class="mb-200"
       :title="'Дизайнер макетов'"
-      :images="[{ image: 'features-hub.png' }, { image: 'features-plan.gif' }]"
+      :images="[{ image: 'features-hub.png' }, { image: 'features-plan.png' }]"
     >
     <p class="light grey__darken-1--text">
       Гибко настраиваемый инструмент, с помощью которого вы можете поделить экран на несколько 

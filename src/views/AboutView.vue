@@ -17,7 +17,7 @@
       class="mb-200"
       :dark="true"
       :title="'Что мы делаем'"
-      :images="[{ image: 'about-us.gif' }]"
+      :images="[{ image: 'about-us.png' }]"
     >
     <p class="light grey__darken-1--text">
       Мы помогаем малому и среднему бизнесу строить умный канал коммуникации со своей аудиторией в любое время 

@@ -9,7 +9,7 @@
       class="mb-340"
     >
     <CTAButtons class="jcc pb-120" :dark="true"/>
-    <img src="@/assets/img/hero-inventory.gif" class="rounded flex self-center pb-64">
+    <img src="@/assets/img/hero-inventory.png" class="rounded flex self-center pb-64">
     <div class="clients flex jcsb">
       <img src="@/assets/img/client-salamander.svg" alt="Саламандр">
       <img src="@/assets/img/client-askona.svg" alt="Аскона">
@@ -23,7 +23,7 @@
       <Card 
         class="mb-300"
         :title="'Документ для всех'"
-        :images="[{ image: 'the-doc-for-everyone.gif' }]"
+        :images="[{ image: 'the-doc-for-everyone.png' }]"
       >
       <p class="light grey__darken-4--text">
         Competence ощущается знакомо как .doc и интерактивно как приложение, поэтому вы можете сразу приступить к работе, 
@@ -33,7 +33,7 @@
       <Card 
         class="mb-300"
         :title="'В одном ритме с командой'"
-        :images="[{ image: 'fit-your-team.gif' }]"
+        :images="[{ image: 'fit-your-team.png' }]"
       >
       <p class="light grey__darken-4--text">
         Если команда растет или планы меняются, вы можете использовать «строительные блоки» для безшовной эволюции документа.
@@ -42,7 +42,7 @@
       <Card 
         class="mb-300"
         :title="'Доступ ко всему'"
-        :images="[{ image: 'all-access.gif' }]"
+        :images="[{ image: 'all-access.png' }]"
       >
       <p class="light grey__darken-4--text">
         Автоматически синхронизируйте ваши дела в Google Calendar, обновления в Slack, Jira Issues и контролируйте их изменения.
