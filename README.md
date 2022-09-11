@@ -38,7 +38,7 @@ Custom Sass classes allow you to fast create flexible UI components
 <button  class='button grey__lighten-4--text'>{{  text  }}</button>
 ```
 
-![Button](/src/assets/img/readme/button.PNG)
+![Button](/src/assets/img/readme/button.png)
 
 ---
 
