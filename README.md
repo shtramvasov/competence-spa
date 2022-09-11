@@ -46,19 +46,19 @@ Example of responsive design:
 
 Header component
 
-![Header Large](/src/assets/img/readme/header-large.PNG)
+![Header Large](/src/assets/img/readme/header-large.png)
 
 ---
 
-![Header Small](/src/assets/img/readme/header-small.PNG)
+![Header Small](/src/assets/img/readme/header-small.png)
 
 ---
 
-![Header Dropdown](/src/assets/img/readme/header-dropdown.PNG)
+![Header Dropdown](/src/assets/img/readme/header-dropdown.png)
 
 ---
 
-![Header Mobile](/src/assets/img/readme/header-mobile.PNG)
+![Header Mobile](/src/assets/img/readme/header-mobile.png)
 
 ---
 
@@ -73,4 +73,4 @@ Simple UI component:
   />
  </div>
 ```
-![Features](/src/assets/img/readme/features.PNG)
+![Features](/src/assets/img/readme/features.png)
