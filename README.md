@@ -20,15 +20,15 @@ Custom Sass classes allow you to fast create flexible UI components
 
 ```sass
 .indigo {
-	background-color: $indigo;
+	background-color: $indigo
 	&--text {
-		color: $indigo;
+		color: $indigo
 	}
 	
 	&__lighten-2 {
-		background-color: $indigo-lighten-2;
+		background-color: $indigo-lighten-2
 		&--text {
-			color: $indigo-lighten-2;
+			color: $indigo-lighten-2
 		}
 	}
 }
