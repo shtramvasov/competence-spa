@@ -12,8 +12,6 @@ Deployed on Vercel— [competence](https://competence.vercel.app/)
  - Form Validation using Vue
  - UI components support dark mode
  - One click deployment with __Vercel__ (or manual deployment to any hosting services)
-# Documentation manager landing page
-__Competence__ is a product that serves as a platform for collaborative editing, document storage, communication, and mailing systems on virtually any desktop or mobile device.
 
 
 ##  Overview
